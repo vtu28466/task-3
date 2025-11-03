@@ -1,0 +1,11 @@
+from mypackage.pack1 import mathfunctions
+from mypackage.pack2 import areafunctions
+
+print("Addition:", mathfunctions.add(8, 4))
+print("Subtraction:", mathfunctions.subtract(8, 4))
+print("Multiplication:", mathfunctions.multiply(8, 4))
+print("Division:", mathfunctions.divide(8, 4))
+
+print("Area of Circle:", areafunctions.area_of_circle(5))
+print("Area of Rectangle:", areafunctions.area_of_rectangle(6, 3))
+print("Area of Square:", areafunctions.area_of_square(4))
